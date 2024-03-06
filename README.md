@@ -1,5 +1,13 @@
 Script to reenumerate iOS USB devices on macOS when they've lost connection to your development tooling.
 
+To compile, all you need to do is run `./build.sh`. It will ask for your password to automatically install itself into `/usr/local/bin` which should already be in your path. 
+
+Once it's in place, to run, simply type:
+```
+usb_refresh
+```
+
+
 Docs for USBDeviceReEnumerate:
 
  ```
